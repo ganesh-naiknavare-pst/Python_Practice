@@ -1,10 +1,14 @@
-def division(a,b):
-  return a +b
+# Taking input for three integers
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
 
-def Addition(a,c):
-  return a - c
-# Python3 code to implement iterative Binary
-# Search.
+# Calculating the sum
+sum_result = num1 + num2 + num3
+
+# Displaying the result
+print("The sum of the three numbers is:", sum_result)
+
 
 
 # It returns location of x in given array arr
