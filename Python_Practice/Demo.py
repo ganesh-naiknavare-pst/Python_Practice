@@ -1,13 +1,15 @@
-# Taking input for three integers
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
-num3 = int(input("Enter third number: "))
+def add_three_numbers():
+    """Function to take three integers as input and return their sum."""
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+    num3 = int(input("Enter third number: "))
+    
+    return num1 + num2 + num3
 
-# Calculating the sum
-sum_result = num1 + num2 + num3
+# Calling the function and displaying the result
+result = add_three_numbers()
+print("The sum of the three numbers is:", result)
 
-# Displaying the result
-print("The sum of the three numbers is:", sum_result)
 
 
 
